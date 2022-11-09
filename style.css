@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Lora:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("https://telegram.org.ru/uploads/posts/2020-02/1582888810_priroda-1920x1080-priroda-21456.jpg") center/cover no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: red;
+    animation: title 5s linear infinite;
+    font-size: 40px;
+}
+
+@keyframes title {
+    from {
+        filter: hue-rotate(0deg);
+
+    }
+
+    to {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.styles {
+    width: 60%;
+    height: 90vh;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.395);
+    margin: 50px 0;
+    box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.358);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border-radius: 32px;
+}
+
+#inp {
+    width: 50%;
+    font-size: 30px;
+    border-radius: 5px;
+    font-family: 'Lora';
+    font-weight: 400;
+    padding: 3px 0 3px 20px;
+
+
+}
+
+.task {
+    background: white;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+#btn {
+    background-color: rgb(30, 30, 108);
+    color: white;
+    padding: 10px 35px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+}
