@@ -1,21 +1,4 @@
-// const input = document.getElementById('inp')
-// const button = document.getElementById('btn')
-// const wrapper = document.querySelector('.wrapper')
-// const ul = document.getElementById('ul')
 
-// let todoList = []
-
-// button.addEventListener('click', () => {
-//     let newTodo = {
-//         ul: input.value,
-//         checked: false,
-//         importand : false,
-//     }
-
-//     todoList.push(newTodo)
-//     console.log(todoList);
-//     input.value = ''
-// })
 
 let tasks = []
 let imgDone, imgEdit, imgTrash
